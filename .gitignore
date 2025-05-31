@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
-dataset/
+# Ignore all files in dataset/
+dataset/*
+
+# But NOT .gitkeep
+!dataset/.gitkeep
